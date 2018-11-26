@@ -1,0 +1,30 @@
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.header-text__city{
+    display: block;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.header-text__contacts{
+    text-align: right;
+    margin-right: 30px;
+}
+
+.header-text__phone{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Museo Sans 700 Bold', sans-serif;
+    font-size: 20px;
+}
+
+.header-text{
+    display: flex;
+    align-items: center;
+}

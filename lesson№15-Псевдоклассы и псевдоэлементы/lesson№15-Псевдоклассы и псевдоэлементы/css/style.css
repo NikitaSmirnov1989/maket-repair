@@ -1,0 +1,15 @@
+@import url("_fonts.css");
+@import url("_normalize.css");
+@import url("_header.css");
+@import url("_interface.css");
+
+body{
+    font-family: "Museo Sans 300 Light", sans-serif;
+    color: #333;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
