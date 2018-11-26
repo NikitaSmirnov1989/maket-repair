@@ -1,0 +1,26 @@
+.button{
+    padding: 17px 30px;
+    font-size: 13px;
+    font-family: 'Museo Sans 700 Bold', sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffd200;
+    transition: 1s;
+    margin-bottom: 31px;
+}
+
+.button:hover{
+    background-color: rgba(255, 210, 0, 0.4);
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
+}
+
+input{
+    font-size: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+}

@@ -1,0 +1,37 @@
+.form-contacts{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Museo Sans 300 Light', sans-serif;
+}
+
+.form-contacts__time{
+    width: 228px;
+}
+
+.form-contacts__number{
+    width: 192px;
+    position: relative;
+}
+
+.form-contacts__number::before{
+    content: "";
+    background-image: url("../img/icon-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 40px;
+    min-height: 40px;
+    display: block;
+    position: absolute;
+    right: 210px;
+    top: 4px;
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+   
+}
+
+.form-contacts__number span {
+    font-family: 'Museo Sans 700 Bold', sans-serif;
+}
